@@ -6,9 +6,9 @@ import React from "react";
 const App1 = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
