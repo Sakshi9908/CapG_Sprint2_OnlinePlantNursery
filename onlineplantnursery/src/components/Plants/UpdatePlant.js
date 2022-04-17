@@ -79,7 +79,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="plantId"
-                    placeholder="Enter Here"
+                    placeholder="Enter Plant Id"
                     required
                     value={plantId}
                     onChange={(e) => onInputChange(e)}
@@ -91,7 +91,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="name"
-                    placeholder="Enter Here"
+                    placeholder="Enter Plant Name"
                     required
                     value={name}
                     onChange={(e) => onInputChange(e)}
@@ -103,7 +103,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="plantHeight"
-                    placeholder="Enter Here"
+                    placeholder="Enter Plant Height"
                     required
                     value={plantHeight}
                     onChange={(e) => onInputChange(e)}
@@ -115,7 +115,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="plantSpread"
-                    placeholder="Enter Here"
+                    placeholder="Enter Plant Spread"
                     required
                     value={plantSpread}
                     onChange={(e) => onInputChange(e)}
@@ -127,7 +127,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="bloomTime"
-                    placeholder="Enter Here"
+                    placeholder="Enter Bloom Time"
                     required
                     value={bloomTime}
                     onChange={(e) => onInputChange(e)}
@@ -139,7 +139,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="medicinalOrCulinaryUse"
-                    placeholder="Enter Here"
+                    placeholder="Enter Medicinal Use"
                     required
                     value={medicinalOrCulinaryUse}
                     onChange={(e) => onInputChange(e)}
@@ -151,7 +151,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="difficultyLevel"
-                    placeholder="Enter Here"
+                    placeholder="Enter Difficulty Level"
                     required
                     value={difficultyLevel}
                     onChange={(e) => onInputChange(e)}
@@ -163,7 +163,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="temparature"
-                    placeholder="Enter Here"
+                    placeholder="Enter Temperature"
                     required
                     value={temparature}
                     onChange={(e) => onInputChange(e)}
@@ -175,7 +175,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="typeOfPlant"
-                    placeholder="Enter Here"
+                    placeholder="Enter Type Of Plant"
                     required
                     value={typeOfPlant}
                     onChange={(e) => onInputChange(e)}
@@ -187,7 +187,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="plantDescription"
-                    placeholder="Enter Here"
+                    placeholder="Enter Plant Description"
                     required
                     value={plantDescription}
                     onChange={(e) => onInputChange(e)}
@@ -199,7 +199,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="plantsStock"
-                    placeholder="Enter Here"
+                    placeholder="Enter Plant Stock"
                     required
                     value={plantsStock}
                     onChange={(e) => onInputChange(e)}
@@ -211,7 +211,7 @@ function UpdatePlant() {
                     type="text"
                     className="form-control"
                     name="plantCost"
-                    placeholder="Enter Here"
+                    placeholder="Enter Plant Cost"
                     required
                     value={plantCost}
                     onChange={(e) => onInputChange(e)}
@@ -220,7 +220,7 @@ function UpdatePlant() {
                 <div className="container text-center">
                   <button id="addbtn"
                     type="submit"
-                    className="btn btn-outline-success my-2 text-center mr-2"
+                    className="btn my-2 text-center mr-2"
                   >
                     Update Plant
                   </button>

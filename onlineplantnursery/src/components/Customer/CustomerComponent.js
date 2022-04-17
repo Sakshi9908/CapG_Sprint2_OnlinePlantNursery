@@ -50,7 +50,7 @@ class CustomerComponent extends Component {
             ? "No Record "
             : this.state.customer.map((customer, index) => (
                 <div className="card " key={customer.id}>
-                  <div className="jumbotron">
+                  <div class="jumbotron">
                     <div className="card-body" style={{ color: "white" }}>
                       <h5 className="card-title">{index + 1}</h5>
                       <h5 className="card-title">

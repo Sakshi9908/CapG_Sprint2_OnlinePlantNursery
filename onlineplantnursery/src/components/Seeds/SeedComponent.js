@@ -36,7 +36,7 @@ class SeedComponent extends Component {
             <div>
                 <div className="container">
                 <div className='addbutton'>
-                        <button id="addbtn" className="btn btn-info" type="button" ><Link id="addbtn" to={'/Seed'}>Create Seed</Link></button>
+                        <button id="addbtn" className="btn" type="button" ><Link id="addbtn" to={'/Seed'}>Create Seed</Link></button>
                     </div>
                     {this.state.seed.length === 0 ? "No Record " :
                     this.state.seed.map((seed,index) =>(

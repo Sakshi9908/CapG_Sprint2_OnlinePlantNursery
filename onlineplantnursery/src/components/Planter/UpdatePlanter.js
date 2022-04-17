@@ -68,10 +68,10 @@ function UpdatePlanter() {
                 <div className="form-group">
                   <label for="exampleInputEmail1">Planter ID</label>
                   <input
-                    type="text"
+                    type="number"
                     className="form-control"
                     name="planterId"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Id"
                     required
                     value={planterId}
                     onChange={(e) => onInputChange(e)}
@@ -80,10 +80,10 @@ function UpdatePlanter() {
                 <div className="form-group">
                   <label for="exampleInputEmail1">Planter Height</label>
                   <input
-                    type="text"
+                    type="number"
                     className="form-control"
                     name="planterheight"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Height"
                     required
                     value={planterheight}
                     onChange={(e) => onInputChange(e)}
@@ -92,22 +92,22 @@ function UpdatePlanter() {
                 <div className="form-group">
                   <label for="exampleInputPassword1">Planter Capacity</label>
                   <input
-                    type="text"
+                    type="number"
                     className="form-control"
                     name="planterCapacity"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Capacity"
                     required
                     value={planterCapacity}
                     onChange={(e) => onInputChange(e)}
                   />
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputPassword1">DrainageHoles</label>
+                  <label for="exampleInputPassword1">Drainage Holes</label>
                   <input
                     type="text"
                     className="form-control"
                     name="drainageHoles"
-                    placeholder="Enter Here"
+                    placeholder="Enter Drainage Holes"
                     required
                     value={drainageHoles}
                     onChange={(e) => onInputChange(e)}
@@ -119,7 +119,7 @@ function UpdatePlanter() {
                     type="text"
                     className="form-control"
                     name="planterColor"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Color"
                     required
                     value={planterColor}
                     onChange={(e) => onInputChange(e)}
@@ -131,7 +131,7 @@ function UpdatePlanter() {
                     type="text"
                     className="form-control"
                     name="planterShape"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Shape"
                     required
                     value={planterShape}
                     onChange={(e) => onInputChange(e)}
@@ -144,7 +144,7 @@ function UpdatePlanter() {
                     type="text"
                     className="form-control"
                     name="planterStock"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Stock"
                     required
                     value={planterStock}
                     onChange={(e) => onInputChange(e)}
@@ -156,7 +156,7 @@ function UpdatePlanter() {
                     type="text"
                     className="form-control"
                     name="planterCost"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Cost"
                     required
                     value={planterCost}
                     onChange={(e) => onInputChange(e)}

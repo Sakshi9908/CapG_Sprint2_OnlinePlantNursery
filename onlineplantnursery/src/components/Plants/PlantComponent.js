@@ -37,7 +37,7 @@ class PlantComponent extends Component {
             <div>
                 <div className="container">
                     <div className='addbutton'>
-                        <button id="addbtn" className="btn btn-info" type="button" ><Link id="addbtn" to={'/Plant'}>Create Plant</Link></button>
+                        <button id="addbtn" className="btn" type="button" ><Link id="addbtn" to={'/Plant'}>Create Plant</Link></button>
                     </div>
                     {this.state.plant.length === 0 ? "No Record " :
                         this.state.plant.map((plant, index) => (
@@ -50,7 +50,7 @@ class PlantComponent extends Component {
                                     <h5 className="card-text">Bloom Time &nbsp; :&nbsp; {plant.bloomTime}</h5>
                                     <h5 className="card-text">Plant Cost &nbsp; :&nbsp; {plant.plantCost}</h5>
                                     <div className="d-grid gap-2">
-                                        <button id="addbtn" className="btn" type="button" ><Link id="addbtn" to={`/update-plant/${plant.plantId}`}>Update</Link> </button>
+                                        <button id="addbtn" className='btn' type="button" ><Link id="addbtn" to={`/update-plant/${plant.plantId}`}>Update</Link> </button>
                                         <button id="addbtn" className="btn" onClick={() => { this.deletePlant(plant.plantId) }}>Delete</button>
                                     </div>
                                     </div>

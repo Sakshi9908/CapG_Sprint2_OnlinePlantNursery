@@ -59,10 +59,10 @@ function CreatePlanterComponent() {
                 <div class="form-group">
                   <label for="exampleInputEmail1">Planter Id</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     name="planterId"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Id"
                     required
                     value={planterId}
                     onChange={(e) => onInputChange(e)}
@@ -71,10 +71,10 @@ function CreatePlanterComponent() {
                 <div class="form-group">
                   <label for="exampleInputEmail1">Planter Height</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     name="planterheight"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Height"
                     required
                     value={planterheight}
                     onChange={(e) => onInputChange(e)}
@@ -83,22 +83,22 @@ function CreatePlanterComponent() {
                 <div class="form-group">
                   <label for="exampleInputPassword1">Planter Capacity</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     name="planterCapacity"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Capacity"
                     required
                     value={planterCapacity}
                     onChange={(e) => onInputChange(e)}
                   />
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">DrainageHoles</label>
+                  <label for="exampleInputPassword1">Drainage Holes</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     name="drainageHoles"
-                    placeholder="Enter Here"
+                    placeholder="Enter Drainage holes"
                     required
                     value={drainageHoles}
                     onChange={(e) => onInputChange(e)}
@@ -110,7 +110,7 @@ function CreatePlanterComponent() {
                     type="text"
                     class="form-control"
                     name="planterColor"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Color"
                     required
                     value={planterColor}
                     onChange={(e) => onInputChange(e)}
@@ -122,7 +122,7 @@ function CreatePlanterComponent() {
                     type="text"
                     class="form-control"
                     name="planterShape"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Shape"
                     required
                     value={planterShape}
                     onChange={(e) => onInputChange(e)}
@@ -135,7 +135,7 @@ function CreatePlanterComponent() {
                     type="text"
                     class="form-control"
                     name="planterStock"
-                    placeholder="Enter Here"
+                    placeholder="Enter Stock"
                     required
                     value={planterStock}
                     onChange={(e) => onInputChange(e)}
@@ -144,10 +144,10 @@ function CreatePlanterComponent() {
                 <div class="form-group">
                   <label for="exampleInputPassword1">Planter Cost</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     name="planterCost"
-                    placeholder="Enter Here"
+                    placeholder="Enter Planter Cost"
                     required
                     value={planterCost}
                     onChange={(e) => onInputChange(e)}

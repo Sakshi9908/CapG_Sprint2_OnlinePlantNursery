@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { Link,useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 import "../CssStyle/Styles.css";
 
 function CreateSeedComponent() {
@@ -65,10 +65,10 @@ function CreateSeedComponent() {
               <div className="form-group">
                   <label for="exampleInputEmail1">Seed Id</label>
                   <input
-                    type="text"
+                    type="number"
                     className="form-control"
                     name="id"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Id"
                     required
                     value={id}
                     onChange={(e) => onInputChange(e)}
@@ -80,7 +80,7 @@ function CreateSeedComponent() {
                     type="text"
                     className="form-control"
                     name="commanName"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Name"
                     required
                     value={commanName}
                     onChange={(e) => onInputChange(e)}
@@ -93,19 +93,19 @@ function CreateSeedComponent() {
                     type="text"
                     className="form-control"
                     name="bloomTime"
-                    placeholder="Enter Here"
+                    placeholder="Enter Bloom Time"
                     required
                     value={bloomTime}
                     onChange={(e) => onInputChange(e)}
                   />
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputPassword1">watering</label>
+                  <label for="exampleInputPassword1">Watering</label>
                   <input
                     type="text"
                     className="form-control"
                     name="watering"
-                    placeholder="Enter Here"
+                    placeholder="Enter Watering Need"
                     required
                     value={watering}
                     onChange={(e) => onInputChange(e)}
@@ -118,7 +118,7 @@ function CreateSeedComponent() {
                     type="text"
                     className="form-control"
                     name="difficultyLevel"
-                    placeholder="Enter Here"
+                    placeholder="Enter Difficulty Level"
                     required
                     value={difficultyLevel}
                     onChange={(e) => onInputChange(e)}
@@ -130,7 +130,7 @@ function CreateSeedComponent() {
                     type="text"
                     className="form-control"
                     name="temperature"
-                    placeholder="Enter Here"
+                    placeholder="Enter Temperature"
                     required
                     value={temperature}
                     onChange={(e) => onInputChange(e)}
@@ -142,7 +142,7 @@ function CreateSeedComponent() {
                     type="text"
                     className="form-control"
                     name="typeOfSeed"
-                    placeholder="Enter Here"
+                    placeholder="Enter Type of Seed"
                     required
                     value={typeOfSeed}
                     onChange={(e) => onInputChange(e)}
@@ -154,19 +154,19 @@ function CreateSeedComponent() {
                     type="text"
                     className="form-control"
                     name="seedsDescription"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Description"
                     required
                     value={seedsDescription}
                     onChange={(e) => onInputChange(e)}
                   />
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputPassword1">Seedss Stock </label>
+                  <label for="exampleInputPassword1">Seeds Stock </label>
                   <input
                     type="text"
                     className="form-control"
                     name="seedsStock"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Stock"
                     required
                     value={seedsStock}
                     onChange={(e) => onInputChange(e)}
@@ -178,7 +178,7 @@ function CreateSeedComponent() {
                     type="text"
                     className="form-control"
                     name="seedsCost"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Cost"
                     required
                     value={seedsCost}
                     onChange={(e) => onInputChange(e)}
@@ -190,7 +190,7 @@ function CreateSeedComponent() {
                     type="text"
                     className="form-control"
                     name="seedsPerPacket"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seeds Per Packet"
                     required
                     value={seedsPerPacket}
                     onChange={(e) => onInputChange(e)}
@@ -199,7 +199,7 @@ function CreateSeedComponent() {
                 <div id="addbtn" className="container text-center">
                   <button
                     type="submit"
-                    className="btn btn-outline-secondary my-2 text-center mr-2"
+                    className="btn"
                   >
                     Add Seed
                   </button><br />

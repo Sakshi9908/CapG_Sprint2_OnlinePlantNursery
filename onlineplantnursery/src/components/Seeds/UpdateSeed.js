@@ -73,10 +73,10 @@ function UpdateSeed() {
               <div className="form-group">
                   <label for="exampleInputEmail1">Seed Id</label>
                   <input
-                    type="text"
+                    type="number"
                     className="form-control"
                     name="seedId"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Id"
                     required
                     value={seedId}
                     onChange={(e) => onInputChange(e)}
@@ -88,7 +88,7 @@ function UpdateSeed() {
                     type="text"
                     className="form-control"
                     name="commanName"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Name"
                     required
                     value={commanName}
                     onChange={(e) => onInputChange(e)}
@@ -101,19 +101,19 @@ function UpdateSeed() {
                     type="text"
                     className="form-control"
                     name="bloomTime"
-                    placeholder="Enter Here"
+                    placeholder="Enter Bloom Time"
                     required
                     value={bloomTime}
                     onChange={(e) => onInputChange(e)}
                   />
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputPassword1">watering</label>
+                  <label for="exampleInputPassword1">Watering</label>
                   <input
                     type="text"
                     className="form-control"
                     name="watering"
-                    placeholder="Enter Here"
+                    placeholder="Enter Watering Need"
                     required
                     value={watering}
                     onChange={(e) => onInputChange(e)}
@@ -126,7 +126,7 @@ function UpdateSeed() {
                     type="text"
                     className="form-control"
                     name="difficultyLevel"
-                    placeholder="Enter Here"
+                    placeholder="Enter Difficulty Level"
                     required
                     value={difficultyLevel}
                     onChange={(e) => onInputChange(e)}
@@ -138,7 +138,7 @@ function UpdateSeed() {
                     type="text"
                     className="form-control"
                     name="temprature"
-                    placeholder="Enter Here"
+                    placeholder="Enter Temperature"
                     required
                     value={temprature}
                     onChange={(e) => onInputChange(e)}
@@ -150,7 +150,7 @@ function UpdateSeed() {
                     type="text"
                     className="form-control"
                     name="typeOfSeed"
-                    placeholder="Enter Here"
+                    placeholder="Enter Type of Seed"
                     required
                     value={typeOfSeed}
                     onChange={(e) => onInputChange(e)}
@@ -162,19 +162,19 @@ function UpdateSeed() {
                     type="text"
                     className="form-control"
                     name="seedsDescription"
-                    placeholder="Enter Here"
+                    placeholder="Enter Description"
                     required
                     value={seedsDescription}
                     onChange={(e) => onInputChange(e)}
                   />
                 </div>
                 <div className="form-group">
-                  <label for="exampleInputPassword1">Seedss Stock </label>
+                  <label for="exampleInputPassword1">Seeds Stock </label>
                   <input
                     type="text"
                     className="form-control"
                     name="seedsStock"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Stock"
                     required
                     value={seedsStock}
                     onChange={(e) => onInputChange(e)}
@@ -186,7 +186,7 @@ function UpdateSeed() {
                     type="text"
                     className="form-control"
                     name="seedsCost"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seed Cost"
                     required
                     value={seedsCost}
                     onChange={(e) => onInputChange(e)}
@@ -198,7 +198,7 @@ function UpdateSeed() {
                     type="text"
                     className="form-control"
                     name="seedsPerPacket"
-                    placeholder="Enter Here"
+                    placeholder="Enter Seeds Per Packet"
                     required
                     value={seedsPerPacket}
                     onChange={(e) => onInputChange(e)}
