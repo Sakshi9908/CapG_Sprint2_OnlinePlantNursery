@@ -32,9 +32,11 @@ nav {
   text-decoration: none;
   color: white;
   font-family: cursive;
+  font-size:x-large;
 }
 .anchor:hover {
 color: black;
+font-size:x-large;
 /* background-color: white; */
 }
 #search:hover {
@@ -61,11 +63,12 @@ color: black;
 
 
 .my_shop {
-  font-size: 1.5rem;
+  font-size:xx-large;
   font-weight: bold;
   color: white;
   font-family: cursive;
   cursor: pointer;
+  
 }
 
 .cart {

@@ -3,6 +3,7 @@ import { Link, Outlet } from 'react-router-dom';
 import SeedServices from './SeedServices';
 import axios from 'axios';
 import "../CssStyle/Styles.css";
+import Navbar from '../Navbar/navbar';
 
 class SeedComponent extends Component {
     // Step 1:
@@ -34,6 +35,7 @@ class SeedComponent extends Component {
     render() {
         return (
             <div>
+                <Navbar/>
                 <div className="container">
                 <div className='addbutton'>
                         <button id="addbtn" className="btn" type="button" ><Link id="addbtn" to={'/Seed'}>Create Seed</Link></button>

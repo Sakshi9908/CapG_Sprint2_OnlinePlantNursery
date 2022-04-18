@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import PlantServices from './PlantServices';
 import axios from 'axios';
 import "../CssStyle/Styles.css";
+import Navbar from '../Navbar/navbar';
 
 
 class PlantComponent extends Component {
@@ -35,6 +36,7 @@ class PlantComponent extends Component {
     render() {
         return (
             <div>
+                 <Navbar/>
                 <div className="container">
                     <div className='addbutton'>
                         <button id="addbtn" className="btn" type="button" ><Link id="addbtn" to={'/Plant'}>Create Plant</Link></button>

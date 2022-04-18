@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CustomerServices from "./CustomerServices";
 import axios from "axios";
 import "../CssStyle/Styles.css";
+import Navbar from "../Navbar/navbar";
 
 class CustomerComponent extends Component {
   // Step 1:
@@ -38,6 +39,7 @@ class CustomerComponent extends Component {
   render() {
     return (
       <div>
+        <Navbar/>
         <div className="container">
           <div className="addbutton">
             <button id="addbtn" className="btn" type="button">

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import "../CssStyle/Styles.css"
 import { Link,useNavigate } from "react-router-dom";
+import Navbar from "../Navbar/navbar";
 
 
 function CreatePlantComponent() {
@@ -59,6 +60,7 @@ function CreatePlantComponent() {
   };
   return (
     <div>
+       <Navbar/>
       <div className="container">
         <div className="w-75 mx-auto shadow p-5 mt-2 bg-light">
           <div className="jumbotron">

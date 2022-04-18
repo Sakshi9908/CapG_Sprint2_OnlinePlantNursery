@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import PlanterServices from "./PlanterServices";
 import axios from "axios";
 import "../CssStyle/Styles.css";
+import Navbar from "../Navbar/navbar";
 
 class PlanterComponent extends Component {
   // Step 1:
@@ -36,6 +37,7 @@ class PlanterComponent extends Component {
   render() {
     return (
       <div>
+        <Navbar/>
         <div className="container">
           <div className="addbutton">
             <button id="addbtn" className="btn" type="button">

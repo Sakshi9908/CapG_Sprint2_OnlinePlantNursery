@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import OrderServices from "./OrderServices";
 import axios from "axios";
 import "../CssStyle/Styles.css";
+import Navbar from "../Navbar/navbar";
 
 class OrderComponent extends Component {
   // Step 1:
@@ -38,6 +39,7 @@ class OrderComponent extends Component {
   render() {
     return (
       <div>
+        <Navbar/>
         <div className="container">
           {this.state.ordertable.length === 0
             ? "No Record "

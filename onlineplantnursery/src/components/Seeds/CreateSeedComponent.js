@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import {useNavigate } from 'react-router-dom';
 import "../CssStyle/Styles.css";
+import Navbar from "../Navbar/navbar";
 
 function CreateSeedComponent() {
   //Step 1:
@@ -56,6 +57,7 @@ function CreateSeedComponent() {
   };
   return (
     <div>
+      <Navbar/>
       <div className="container">
         <div className="w-75 mx-auto shadow p-5 mt-2 bg-light">
           <div className="jumbotron">
@@ -197,7 +199,7 @@ function CreateSeedComponent() {
                   />
                 </div>
                 <div id="addbtn" className="container text-center">
-                  <button
+                  <button id="addbtn"
                     type="submit"
                     className="btn"
                   >

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useParams,useNavigate } from "react-router-dom";
 import "../CssStyle/Styles.css";
+import Navbar from "../Navbar/navbar";
 
 function UpdateSeed() {
   const { id } = useParams(); // getting url id
@@ -64,6 +65,7 @@ function UpdateSeed() {
 
   return (
     <div>
+      <Navbar/>
       <div className="container">
         <div className="w-75 mx-auto shadow p-5 mt-2 bg-light">
           <div className="jumbotron">

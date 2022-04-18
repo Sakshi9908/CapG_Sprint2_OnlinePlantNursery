@@ -44,11 +44,9 @@ function Login() {
             <label for="pwd">Password</label>
             <input placeholder="Enter Password" type="password" value={passval} onChange={(e)=>{setpassval(e.target.value)}} id="pwd" />
             <button onClick={login} type="submit" id="sub_btn">Login</button><br/>
-            
+            <div className='footer1'></div>
           </form>
-          <div className='footer1'>
-            <h4>Don't have an Account ?<Link className='link1' to='/Register'>&nbsp;Register Now</Link></h4>
-          </div>
+          
         </div>
         <div className="right">
           <div className='welcomenote'>

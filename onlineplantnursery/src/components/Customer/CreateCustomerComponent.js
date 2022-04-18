@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import {useNavigate } from "react-router-dom";
 import "../CssStyle/Styles.css";
+import Navbar from "../Navbar/navbar";
 
 function CreateCustomerComponent() {
   const navigate = useNavigate();
@@ -37,6 +38,7 @@ function CreateCustomerComponent() {
   };
   return (
     <div>
+       <Navbar/>
       <div className="container">
         <div className="w-75 mx-auto shadow p-5 mt-2 bg-light">
           <div className="jumbotron">
